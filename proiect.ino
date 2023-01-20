@@ -15,4 +15,46 @@ void setup(){
 }
 void loop(){
   
+  if (start==2){
+    start=0;
+  }
+}
+int fa=0;
+  int temp=10;
+  float chk;
+  int start = 0; 
+  unsigned long previousTime = 0; //declarare variabile
+void setup() {
+  lcd.begin(16,2);
+  pinMode(13, INPUT);
+  pinMode(10, INPUT);
+  pinMode(8, OUTPUT);
+  pinMode(6 , INPUT);
+  pinMode(52, OUTPUT);
+  pinMode(33, OUTPUT);
+  pinMode(41, OUTPUT);
+  pinMode(49, OUTPUT);
+  lcd.setCursor(0,0); 
+}
+
+void loop(){
+  if (start==2){
+    start=0;
+  }
+}
+  void loop(){
+  int fa=0;
+  int temp=0;
+  float chk;
+  int start = 0; 
+  unsigned long previousTime = 0; //declarare variabile
+void setup() {
+  lcd.begin(16,2);
+  pinMode(13, INPUT);
+  pinMode(10, INPUT);
+  pinMode(8, OUTPUT);
+  pinMode(6 , INPUT);
+  pinMode(9, INPUT); // definire pinului daca este de intrare sau iesire
+  lcd.setCursor(0,0); 
+    }
 }
