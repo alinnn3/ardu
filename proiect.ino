@@ -5,3 +5,4 @@
   LiquidCrystal lcd(rs, en, d4, d5, d6, d7); // intializare ecran LCD
   dht DHT;
   #define DHT11_PIN 7  //definire pin care monitorizeaza temperatura si umiditatea
+ lcd.begin(16,2);
